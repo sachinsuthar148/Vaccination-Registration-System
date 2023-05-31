@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  #vacc{
+    font-size: 40px;
+  }
+  
+  
+  #clients img {
+    height: 60px;
+    width: 30px;
+    margin: 0px 0px;
+    border-radius: 8px;
+    border-radius: 8px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  header::before {
+    background: url("https://media.istockphoto.com/id/1211544068/vector/virus-bacteria-vector-background-cells-disease-outbreak-coronavirus-alert-pattern.jpg?s=612x612&w=0&k=20&c=Whe1hWxGtIB35HaGUdN0_4HBQ9-q8H6iGOAbTVfe3oc=")
+      no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+  }
+  
+  /* navigation bar  */
+  .navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    top: 0px;
+    /* background-color: #017e7e !important; */
+  }   
+  #logo {
+    margin: 8px 30px;
+  }
+  #logo img {
+    height: 60px;
+    width: 303px;
+    margin: 8px 20px;
+    border-radius: 89px;
+  }
+  .navbar ul {
+    margin-left: 0px;
+    display: flex;
+    float: right;
+  }
+  
+  .navbar ul li {
+    float: right;
+    margin-left: 5px;
+    list-style: none;
+    font-size: 1.3rem;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: #6facac;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: -4px 11px;
+    padding: 3px 22px;
+  }
+  .navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+  }
+ 
+  #first{
+    margin-left: 400px;
+}
+.firstbox{
+    display: flex;
+    /* height: 700px; */
+    width: 95%;
+    /* border: 1px solid black; */
+    margin:auto;
+
+}
+.first_subbox{
+    margin: auto;
+    /* height:90%; */
+    width:40%;
+    background: transparent;
+    backdrop-filter: blur(200px);
+    border-radius: 40px;
+    box-shadow: 0 8px 36px rgba(0, 0, 0, .1), 0 8px 36px rgba(0, 0, 0, .1);
+
+}
+#name{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 30px;
+}
+#profile_photo{
+    width: 170px;
+    /* height: 90%; */
+    border-radius: 30%;
+    margin-top: 28px;
+    margin-left: 23px;
+}
+.designation {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.linkedinlogo{
+height: 34px;
+    width: 34px;
+    margin-top: 20px;
+    /* margin-left: 40%; */
+}
+.heading1{
+    text-align: center;
+        width: 319px;
+        padding: 5px;
+        padding-bottom: 5px;
+        font-size: 2.0rem;
+        color: var(--black);
+        margin: 25px;
+        box-shadow: 1px 1px 10px 3px gray;
+        /* margin-left: 4%; */
+        border-radius: 20px;
+        }

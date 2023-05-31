@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+header::before {
+  background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000")
+    no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  /* opacity: 0.6; */
+}
+
+/* navigation bar  */
+.navbar {
+  display: flex;
+  align-items: center;
+
+  top: 0px;
+  background-color: #017e7e !important;
+}
+#logo {
+  margin: 21px 33px;
+}
+#logo img {
+  height: 60px;
+  width: 303px;
+  margin: -17px 50px;
+  border-radius: 89px;
+}
+.navbar ul {
+  margin-left: 562px;
+  display: flex;
+  float: right;
+}
+
+.navbar ul li {
+  float: right;
+
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: #017e7e;
+  font-size: 19px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: -4px 11px;
+  padding: 3px 22px;
+}
+.navbar ul li a:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+#table {
+  margin: 25px 0px 0px 80px;
+  width: 1300px;
+  height: auto;
+}
+#column {
+  margin: 0px 0px 0px 0px;
+  border: 4px solid black;
+  border-radius: 6px;
+}

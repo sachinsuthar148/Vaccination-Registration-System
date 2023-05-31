@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif I !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+header::before {
+  background: url("https://media.istockphoto.com/id/1211544068/vector/virus-bacteria-vector-background-cells-disease-outbreak-coronavirus-alert-pattern.jpg?s=612x612&w=0&k=20&c=Whe1hWxGtIB35HaGUdN0_4HBQ9-q8H6iGOAbTVfe3oc=")
+    no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  }
+
+/* navigation bar  */
+.navbar {
+  display: flex;
+  align-items: center;
+  
+  top: 0px;
+  /* background-color: #017e7e !important; */
+  }   
+  #logo {
+  margin: 21px 33px;
+  }
+  #logo img {
+  height: 60px;
+  width: 303px;
+  margin: 8px 50px;
+  border-radius: 89px;
+  }
+  .navbar ul {
+  margin-left: 0px;
+  display: flex;
+  float: right;
+  }
+  
+  .navbar ul li {
+  float: right;
+  
+  list-style: none;
+  font-size: 1.3rem;
+  }
+  
+  .navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  }
+  .navbar ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: #6facac;
+  font-size: 19px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: -4px 11px;
+  padding: 3px 22px;
+  }
+  .navbar ul li a:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  }
+  .inputform {
+    top: 0px;
+    height: 500px;
+    width: 500px;
+   margin-left: 40px;
+   margin-right: 40px ;
+    border-radius: 40px;
+    /* border: 4px solid black; */
+    background: transparent;
+    backdrop-filter: blur(200px);
+    border-radius: 40px;
+    box-shadow: 0 8px 36px rgba(0, 0, 0, .1), 0 8px 36px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(205 230 233); */
+  }
+  #name {
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    /* border: 3px solid black; */
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: black;
+    /* background-color: #017e7e; */
+    
+  }
+  #firstname,
+  #photoid {
+    color: rgb(21, 3, 3);
+    background-color: #ffffff;
+    font-size: 15px;
+    border-radius: 4px;
+    border-bottom: 1px solid #cbcbcb;
+    border-top: 0;
+    margin: 8px 32px 4px 0px;
+    padding: 4px 32px;
+    /* border: none; */
+    background: transparent;
+    border-left: 0;
+    border-right: 0;
+    padding: 4px 10px;
+
+  }
+#text {
+  font-size: 17px;
+  /* font-weight: bold; */
+}
+#labelname {
+  font-size: 25px;
+  font-weight: bold;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+  color: white;
+  background-color: #017e7e;
+}
+#submit {
+  color: white;
+  background-color: #017e7e;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: 4px 14px;
+  padding: 2px 50px;
+  text-decoration: none;
+}
+#submit:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.button {
+  color: white;
+  background-color: #017e7e;
+  font-size: 19px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 4px 11px;
+  padding: 8px 32px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+form{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
